@@ -10,8 +10,8 @@ export default async function Home() {
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
         {userId ? (
           <div className="flex items-center gap-4">
-            <p>Welcome, you're signed in!</p>
-            <UserButton afterSignOutUrl="/"/>
+            <p>Welcome, you&aposre signed in!</p>
+            <UserButton />
           </div>
         ) : (
           <div className="flex gap-4">
