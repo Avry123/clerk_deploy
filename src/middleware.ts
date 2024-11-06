@@ -7,6 +7,7 @@ const isPublicRoute = createRouteMatcher([
   "/api/tracking_webhook/:partner",
   "/api/wallet/webhooks",
   "/api/shopify/orderUpdate",
+   '/(.*)'
 ]);
 
 export default clerkMiddleware(async (auth, req) => {
