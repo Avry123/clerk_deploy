@@ -2,8 +2,8 @@
 import localFont from "next/font/local";
 import { ClerkProvider, useAuth } from '@clerk/nextjs'
 import "./globals.css";
-import { usePathname } from "next/navigation";
-import { useRouter } from "next/router";
+import { usePathname, useRouter } from "next/navigation";
+// import { useRouter } from "next/router";
 import { useEffect } from "react";
 
 const geistSans = localFont({
